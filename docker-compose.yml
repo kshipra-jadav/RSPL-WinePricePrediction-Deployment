@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build: ./
+    container_name: wine_price_prediction_app
+    volumes:
+      - ./:/code
+    ports:
+      - '80:80'
+    
