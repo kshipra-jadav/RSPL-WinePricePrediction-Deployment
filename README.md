@@ -42,7 +42,7 @@ These variables were:-
 
 * body
 
-But, the major problem was that some of the chosen features had textual data. Hence, they were ran through `sklearn.preprocessing.LabelEncoder` which converted all the textual values to numbers. <sub><sup>Note - We found out later that `sklearn.preprocessing.OrdinalEncoder` is better suited for encoding the textual data to numeric data since the `LabelEncoder` is more suitable for the target variable (as per sklearn documentation)</sup></sub>
+But, the major problem was that some of the chosen features had textual data. Hence, they were ran through `sklearn.preprocessing.LabelEncoder` which converted all the textual values to numbers. _Note - We found out later that `sklearn.preprocessing.OrdinalEncoder` is better suited for encoding the textual data to numeric data since the `LabelEncoder` is more suitable for the target variable (as per sklearn documentation)_
 
 The `sklearn.preprocessing.LabelEncoder` was used like this:-
 
